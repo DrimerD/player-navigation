@@ -1,0 +1,22 @@
+div#player {
+    width: 10px;
+    height: 10px;
+    background: #47524b;
+
+    transition: all 0.3s ease-out 0s;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+body{
+    background-color: rgb(92, 193, 175);
+}
+
+.piuv {
+    position: absolute;
+    background-color: red;
+    height: 10px;
+    width: 1px;
+}
