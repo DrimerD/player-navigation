@@ -43,7 +43,7 @@ document.body.onkeydown = function (e) {
         piv_piv.style.top = parseInt(el.style.top) + 5 +'px';
         piv_piv.style.left = parseInt(el.style.left) + 5 + 'px';
         animate(function() {
-            if (parseInt(piv_piv.style.top) < document.documentElement.clientHeight) {
+            if (parseInt(piv_piv.style.top) < document.documentElement.clientHeight - 15) {
                 document.body.appendChild(piv_piv);
                 piv_piv.style.top = parseInt(piv_piv.style.top) + 5 + 'px';
             } else {
